@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.UserDatabase" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="BackButton" parent="Theme.MaterialComponents">
+        <item name="colorOnPrimary">#626262</item>
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorOnSurface">#000000</item>
+    </style>
+
+    <style name="Theme.UserDatabase.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.UserDatabase.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">User Database</string>
+    <string name="dialog_title_textview">Title</string>
+    <string name="dialog_gender_title">Gender</string>
+    <string name="dialog_dob_title">Birth Date</string>
+    <string name="dialog_email_title">Email</string>
+    <string name="item_viewprofile_button_text">view profile</string>
+</resources>

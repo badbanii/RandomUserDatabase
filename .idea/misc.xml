@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Developing/UserDatabase/app/src/main/res/drawable-v24/background_dialog_text.xml" value="0.2885" />
+        <entry key="..\:/Developing/UserDatabase/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2955" />
+        <entry key="..\:/Developing/UserDatabase/app/src/main/res/drawable-v24/ic_left_arrow_foreground.xml" value="0.2955" />
+        <entry key="..\:/Developing/UserDatabase/app/src/main/res/drawable/ic_launcher_background.xml" value="0.375" />
+        <entry key="..\:/Developing/UserDatabase/app/src/main/res/drawable/ic_left_arrow_foreground.xml" value="0.375" />
+        <entry key="..\:/Developing/UserDatabase/app/src/main/res/layout/activity_main.xml" value="0.42457231726283046" />
+        <entry key="..\:/Developing/UserDatabase/app/src/main/res/layout/dialog_user_details.xml" value="0.284375" />
+        <entry key="..\:/Developing/UserDatabase/app/src/main/res/layout/fragment_user_list.xml" value="0.67" />
+        <entry key="..\:/Developing/UserDatabase/app/src/main/res/layout/item_user_preview.xml" value="0.2916666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
