@@ -1,0 +1,1 @@
+E:\Developing\UserDatabase\buildSrc\build\classes\kotlin\main\ConfigData.class;E:\Developing\UserDatabase\buildSrc\build\classes\kotlin\main\CustomDeps.class;E:\Developing\UserDatabase\buildSrc\build\classes\kotlin\main\Deps.class;E:\Developing\UserDatabase\buildSrc\build\classes\kotlin\main\Versions.class

@@ -1,5 +1,7 @@
 package com.tuly.userdatabase.presentation.userlist.view
 
+import android.annotation.SuppressLint
+import android.content.pm.ActivityInfo
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
@@ -20,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         val navController = getNavController()
 
+        forceOrientation()
         setSupportActionBar(binding.toolbar)
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
@@ -33,5 +36,11 @@ class MainActivity : AppCompatActivity() {
     private fun getNavController() : NavController {
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.navigation_host) as NavHostFragment
         return navHostFragment.navController
+    }
+
+    @SuppressLint("SourceLockedOrientationActivity")
+    private fun forceOrientation()
+    {
+        this@MainActivity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 }
